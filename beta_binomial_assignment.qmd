@@ -106,7 +106,7 @@ Likelihood Statement: "Taken on its own, this data makes values of π near 13% f
 ### Posterior
 
 ```{r}
-plot_beta_binomial(alpha = 20, beta = 30 , y = 4 , n = 30 )
+plot_beta_binomial(alpha = 20, beta = 30 , y = 4 , n = 30 ) 
 ```
 
 Statement = "There's a 95% probability that π lies between 20.5% and 40.4%."
