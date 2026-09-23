@@ -626,19 +626,16 @@ shinyApp(ui, server)
 
 ### Questions
 
-1.100-1.96(40)=100-76=22
+1.  100-1.96(40)=100-76=22
 
 100+1.96(40)=176
 
-2.  When uncertainty is increased to 80 the lines on the graph start preading out increasing the standard deviation
-3.  sigma value of .0003 shows a stronger correlation between temp and rides. A value of .002 keeps the average at 500
-4.  Sigmas peak sits around zero because it measures spread and is only pulled by long tails. the mean is the weighed average measured across the whole tail and the peak tells you the most likely average.
-5.  the values are reletivly close the temp is spot on the meadian is a lot lower though which is probably due to the postieier not having as much values
-
-<!-- -->
-
-6.  It asks if the true values were actually zero how suprising would it be. it measues the exact thousanth of a fraction of the postirier
-7.  a 1.5 rhat means that the simulation hasn't settled on the same prostirier yet
-8.  the typical ridership sits at round 3960 because this is the general liklihood average across all days but the on one specific day because the postiriers density isn't as high
-9.  yes the interval dips below zero the spread is so wide that the postirior interval can give you a range of values that don't fit your question
-10. I think it would be closer because the prior is still informative and not to specific because of the n=500
+2.  When uncertainty is increased to 80 the lines on the graph start spreading out but the average still hangs around the same.
+3.  sigma value of .0002 shows a stronger correlation between temp and rides. 0.0003 shows that temp has less of an impact on rides.
+4.  Sigmas peak sits around zero because it measures spread and is only pulled by long tails. the mean is the weighed average measured across the whole tail and the peak tells you the most likely average. Sigma also shows that there are negative amount of rides which can't happen.
+5.  The prior and posterior kind of match which means that the posterior data has more weight than the prior. also th emedican is not accurate because there are no 0 degree days in the data
+6.  It asks if the true values were actually zero how surprising would it be. it measures the exact thousandth of a fraction of the posterior
+7.  a 1.5 rhat means that the simulation hasn't settled on the same proprieties yet
+8.  the typical ridership sits at round 3960 because this is the general likelihood average across all days but on one specific day because the posteriors density isn't as high the range is wider
+9.  yes the interval dips below zero the spread is so wide that the posterior interval can give you a range of values that don't fit your question
+10. I think it would be closer because the prior is still informative and not to specific because of the n=500 which is big enough to out weigh
