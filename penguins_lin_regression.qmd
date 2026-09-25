@@ -45,7 +45,7 @@ model <- stan_glm(
 model
 summary(model)
 report::report(model)
-#I used claude and in 1966 a hydrogen bomb was lost at sea and a baesiyan probability map was made in order to find it.
+#I used claude and in 1966 a hydrogen bomb was lost at sea and a baesiyan probability map was made in order to find it. https://nationalinterest.org/node/187012
 ```
 
 ```{r}
