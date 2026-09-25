@@ -1,0 +1,59 @@
+---
+title: "penguin_lin_regression"
+format: html
+editor: visual
+---
+
+```{r}
+options(scipen = 99)
+library(tidyverse)
+library(bayesrules)
+library(rstanarm)
+library(plotly)
+library(report)
+
+
+data <- bayesrules::penguins_bayes
+
+ggplot(data, aes(x=flipper_length_mm, fill = species))+
+  geom_histogram()
+#looks like its centered around the 205 mark. not bell shaped theres 2 seperate clumps around the 205 mark
+
+ggplot(data=data, aes(x=flipper_length_mm, y=bill_length_mm))+
+  geom_point()+
+  geom_smooth(method = 'lm')
+#linear. its positive, looks strong
+```
+
+```{r}
+m0 <- 200   # centered intercept mean
+s0 <- 10.2 # centered intercept SD
+m1 <- 3.5 # slope mean
+s1 <- 1.02 # slope SD
+l  <- .08 # sigma's exponential rate
+```
+
+```{r}
+model <- stan_glm(
+  flipper_length_mm ~ bill_length_mm, data = data,
+  family = gaussian,
+  prior_intercept = normal(m0, s0),
+  prior = normal(m1, s1),
+  prior_aux = exponential(l),
+  chains = 4, iter = 2000, seed = 84735
+)
+model
+summary(model)
+report::report(model)
+#I used claude and in 1966 a hydrogen bomb was lost at sea and a baesiyan probability map was made in order to find it.
+```
+
+```{r}
+posterior <- as.data.frame(model)
+beta0c_draws <- posterior$`(Intercept)` + posterior$bill_length_mm * mean(data$bill_length_mm)
+```
+
+```{r}
+median(posterior$`(Intercept)`)
+median(posterior$bill_length_mm)
+```
