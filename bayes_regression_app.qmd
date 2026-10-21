@@ -631,9 +631,9 @@ shinyApp(ui, server)
 100+1.96(40)=176
 
 2.  When uncertainty is increased to 80 the lines on the graph start spreading out but the average still hangs around the same.
-3.  sigma value of .0002 shows a stronger correlation between temp and rides. 0.0003 shows that temp has less of an impact on rides.
+3.  sigma value of .002 shows a stronger correlation between temp and rides. 0.0003 shows that temp has less of an impact on rides.
 4.  Sigmas peak sits around zero because it measures spread and is only pulled by long tails. the mean is the weighed average measured across the whole tail and the peak tells you the most likely average. Sigma also shows that there are negative amount of rides which can't happen.
-5.  The prior and posterior kind of match which means that the posterior data has more weight than the prior. also th emedican is not accurate because there are no 0 degree days in the data
+5.  The prior and posterior kind of match which means that the prior data has more weight than the posteriors. also the median is not accurate because there are no 0 degree days in the data
 6.  It asks if the true values were actually zero how surprising would it be. it measures the exact thousandth of a fraction of the posterior
 7.  a 1.5 rhat means that the simulation hasn't settled on the same proprieties yet
 8.  the typical ridership sits at round 3960 because this is the general likelihood average across all days but on one specific day because the posteriors density isn't as high the range is wider
