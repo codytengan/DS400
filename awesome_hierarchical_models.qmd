@@ -233,10 +233,10 @@ Pooling all runners’ data together masks the fact that most *individual* runne
 ### Exercise Questions:
 
 Use the [text](https://www.bayesrulesbook.com/chapter-15) to answer these questions:\
-Can you give me an example when we might want to use the partial pooling approach?
+Can you give me an example when we might want to use the partial pooling approach? Partial pooling can be used when you do want to compare indaviduals but don't want to much indavidualism
 
-1.  Why wouldn’t we always just use the complete pooling approach? It seems easier
+1.  Why wouldn’t we always just use the complete pooling approach? When you use complete pooling the model combines all observations and draws conclusions on the observations as a whole. This is not great when you need to draw conclusions on observations as individuals.
 
-2.  Does the no pooled approach have any drawbacks? It seems that there are fewer assumptions.
+2.  Does the no pooled approach have any drawbacks? It seems that there are fewer assumptions. The no pooling approch dones't have too much use beyond the individuals they are modeling.
 
-3.  Can you remind me what the difference is between *within-group* variability and *between-group* variability? And how does that relate to partial pooling?
+3.  Can you remind me what the difference is between *within-group* variability and *between-group* variability? And how does that relate to partial pooling? Withing group compares the mean of observations with in that group while between compares the mean of observations across different groups.
