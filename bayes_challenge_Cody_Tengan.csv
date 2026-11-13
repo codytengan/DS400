@@ -1,0 +1,38 @@
+student,item,question,part,answer,correct,points,time
+Cody Tengan,q1m,1,Choose the model,Beta-binomial model,FALSE,0,2026-10-29 15:18
+Cody Tengan,q1a,1,Odds multiplier for 15 points,4.8,FALSE,0,2026-10-29 15:18
+Cody Tengan,q1b,1,Odds vs probability,A 15-point rise in humidity adds about 2 percentage points to the chance of rain tomorrow on any given day.,FALSE,0,2026-10-29 15:18
+Cody Tengan,q2m,2,Choose the model,BART (Bayesian additive regression trees),FALSE,0,2026-10-29 15:18
+Cody Tengan,q2a,2,Posterior with a 10% base rate,0.1,FALSE,0,2026-10-29 15:18
+Cody Tengan,q2b,2,Meaning of P(! | fake),About 27% of fake articles have an exclamation point in the title.,TRUE,1,2026-10-29 15:18
+Cody Tengan,q3m,3,Choose the model,BART (Bayesian additive regression trees),FALSE,0,2026-10-29 15:18
+Cody Tengan,q3a,3,Why the slopes disagree,The pooled model mixes differences between runners with changes within a runner. The hierarchical model compares each runner with themselves.,TRUE,1,2026-10-29 15:18
+Cody Tengan,q3b,3,Between vs within runners,Runners differ from each other in baseline speed much more than one runner varies from year to year.,TRUE,1,2026-10-29 15:18
+Cody Tengan,q4m,4,Choose the model,Beta-binomial model,TRUE,1,2026-10-29 15:18
+Cody Tengan,q4a,4,"Posterior mean with Beta(5, 11)",0.379,TRUE,1,2026-10-29 15:18
+Cody Tengan,q4b,4,A flat prior,"A Beta(1, 1) prior is flat and carries only about 2 pseudo-observations, so the data dominate.",TRUE,1,2026-10-29 15:18
+Cody Tengan,q5m,5,Choose the model,Bayesian linear regression,TRUE,1,2026-10-29 15:18
+Cody Tengan,q5a,5,Interpret the slope,"On average, each additional degree of felt temperature is associated with about 82 more rides per day.",TRUE,1,2026-10-29 15:18
+Cody Tengan,q5b,5,Interpret sigma,"The predicted number of rides on a day with a felt temperature of zero degrees is 1,283.",FALSE,0,2026-10-29 15:18
+Cody Tengan,q6m,6,Choose the model,Beta-binomial model,FALSE,0,2026-10-29 15:18
+Cody Tengan,q6a,6,Accuracy with two predictors,0.953,TRUE,1,2026-10-29 15:18
+Cody Tengan,q6b,6,The 'naive' assumption,All of the species are assumed to be equally common before any measurements are taken into account.,FALSE,0,2026-10-29 15:18
+Cody Tengan,q7m,7,Choose the model,BART (Bayesian additive regression trees),FALSE,0,2026-10-29 15:18
+Cody Tengan,q7a,7,Respond to a colleague,"Playlists matter, because the pooled model has a very small p-value for the playlist coefficient.",FALSE,0,2026-10-29 15:18
+Cody Tengan,q7b,7,Causal claim,True,FALSE,0,2026-10-29 15:18
+Cody Tengan,q8a,8,Statement 1,BART (Bayesian additive regression trees),FALSE,0,2026-10-29 15:18
+Cody Tengan,q8b,8,Statement 2,Beta-binomial model,FALSE,0,2026-10-29 15:18
+Cody Tengan,q8c,8,Statement 3,Bayesian logistic regression,FALSE,0,2026-10-29 15:18
+Cody Tengan,q8d,8,Statement 4,Bayesian linear regression,FALSE,0,2026-10-29 15:18
+Cody Tengan,q8e,8,Statement 5,Bayes' theorem,FALSE,0,2026-10-29 15:18
+Cody Tengan,q8f,8,Statement 6,Hierarchical (multilevel) model,TRUE,1,2026-10-29 15:18
+Cody Tengan,q8g,8,Statement 7,Naive Bayes classifier,FALSE,0,2026-10-29 15:18
+Cody Tengan,q9a,9,p-value,True,FALSE,0,2026-10-29 15:18
+Cody Tengan,q9b,9,Credible interval,True,TRUE,1,2026-10-29 15:18
+Cody Tengan,q9c,9,Partial pooling,True,TRUE,1,2026-10-29 15:18
+Cody Tengan,q9d,9,Naive Bayes,False,FALSE,0,2026-10-29 15:18
+Cody Tengan,q9e,9,BART,False,TRUE,1,2026-10-29 15:18
+Cody Tengan,q9f,9,Few groups,True,FALSE,0,2026-10-29 15:18
+Cody Tengan,q10a,10,Prevention vs TH,"Prevention probably lowers reentry relative to TH, but the interval just includes zero, so the evidence is suggestive rather than conclusive.",TRUE,1,2026-10-29 15:18
+Cody Tengan,q10b,10,TH vs RRH,"RRH is clearly the better service on average, because the posterior mean of the difference is positive.",FALSE,0,2026-10-29 15:18
+Cody Tengan,TOTAL,,,,NA,14,2026-10-29 15:18
