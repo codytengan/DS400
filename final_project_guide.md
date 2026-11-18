@@ -38,7 +38,7 @@ What methods will you actually run? For example, bayesian logistic regression, n
 
 <!-- Write your answer below this line -->
 
-Naive bayes maybe logistic regression
+Naive bayes maybe linear regression
 
 ------------------------------------------------------------------------
 
